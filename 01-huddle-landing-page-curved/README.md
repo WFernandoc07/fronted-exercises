@@ -1,6 +1,9 @@
 # Proyecto: huddle-landing-page
 
 ## Descripción
+- Construcción de una "landing page" responsiva.
+-
+
 
 ## Requerimientos
 
@@ -72,10 +75,12 @@ Se inician por estructurar la información y las características más important
 ```
 
 ### Tamaño de pantallas
-* 576px -> pantallas pequeñas (celulares)
-* 768px -> pantallas pequeñas (tablets y ceulares)
-* 992px -> pantallas medianas (Desktop)
-* 1200px -> pantallas grandes (Desktops, TVs)
+* 375px -> Pantallas xsm: (celulares)
+* **576px -> pantallas sm (celulares)**
+* 768px -> pantallas md (tablets y ceulares)
+* 992px -> pantallas ld (Desktop)
+* 1200px -> pantallas xl (Desktops, TVs)
+* **1440px -> Pantallas xxl (Desktop, TVs)**
 
 ## Documentos recursos
 * [Metodología BEM](https://getbem.com/)

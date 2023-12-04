@@ -2,9 +2,15 @@
   //border: 2px solid orangered;
   @include custom-flex;
   margin: .5rem;
+  @media (max-width: $xsm){
+    margin: .5rem 2rem;
+  }
   &__logo {
     width: 15%;
     cursor: pointer;
+    @media (max-width: $xsm){
+      width: 30%;
+    }
   }
   &__button {
     border: .01rem solid $primary-light-pink;

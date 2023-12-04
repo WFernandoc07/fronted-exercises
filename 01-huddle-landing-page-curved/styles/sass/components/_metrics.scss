@@ -2,27 +2,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   &__image {
-    max-width: 100%;
     max-width: 60%;
+    @media (max-width: $xsm){
+      max-width: 80%;
+    }
   }
   &__items {
     display: flex;
     width: min(100% - 25rem, 1440px);
+    @media (max-width: $xsm){
+      margin: 8rem 0;
+      width: 100%;
+      flex-direction: column;
+      gap: 8rem;
+    }
   }
   &__comunity {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: min(100% - 3rem, 1440px);
-    margin: 0 auto;
+    margin: 0 auto;    
     &-image {
       width: 15%;
       margin-left: -7.5rem;
     }
     &-tittle {
-      @include custom-headings(4rem);
+      @include custom-headings(4rem);  
     }
     &-paragraph {
       @include custom-texts($font-body, 1rem, $neutral-very-dark-cyan);
