@@ -1,0 +1,59 @@
+.features {
+  // GROW ARTICLE
+  &__grow {
+    &-bg-t {
+      max-width: 100%;
+    }
+    &-bg-b {
+      max-width: 100%;
+    }
+    &-container {
+      //margin-top: -1rem;
+      @include custon-container-features;
+      background-color: $neutral-very-pale-blue;
+    }
+    &-text {
+      @include custon-text-features;
+    }
+    &-image {
+      width: 30%;
+      margin:  0 auto;
+    }
+  }
+  
+  // CONVERSATIONS ARTICLE
+  &__conversations{
+    margin: 5rem 0;
+   &-container {
+    @include custon-container-features;
+   }
+   &-text {
+    @include custon-text-features;
+   }
+    &-image {
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
+
+  // USERS ARTICLE
+  &__users {
+    &-bg-t {
+      max-width: 100%;
+    }
+    &-bg-b {
+      max-width: 100%;
+    }
+   &-container {
+    @include custon-container-features;
+    background-color: $neutral-very-pale-blue;
+   }
+   &-text {
+    @include custon-text-features;
+   }
+    &-image {
+      width: 35%;
+      margin:  0 auto;
+    }
+  }
+}

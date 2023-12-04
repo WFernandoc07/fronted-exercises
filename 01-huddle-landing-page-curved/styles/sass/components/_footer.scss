@@ -1,0 +1,108 @@
+.footer {
+  border: 2px solid white;
+  background-image: url(../../images/bg-footer-top-desktop.svg);
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  font-family: $font-body;
+  color: $neutral-very-pale-blue;
+
+  // FOOTER CONTAINER
+  &__container {
+    margin-top: 9.88rem;
+    background-color: $neutral-very-dark-cyan;
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+    padding-bottom: 5rem;
+
+  }
+
+  // FOOTER INFO
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-left: 5rem;
+    &-logo {
+      filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(118deg) brightness(94%) contrast(114%);
+      width: 50%;
+      height: auto;
+    }
+    
+    &-phone {
+      display: flex;
+      gap: 1rem;
+    }
+    &-mail {
+      display: flex;
+      gap: 1rem;
+    }
+    &-social-media {
+      display: flex;
+      align-items: center;
+      width: 20%;
+      height: auto;
+      margin-top: 5rem;
+      gap: 1rem;
+      &-fb:hover {
+        filter: brightness(0) saturate(100%) invert(93%) sepia(35%) saturate(1924%) hue-rotate(157deg) brightness(117%) contrast(108%);
+        cursor: pointer;
+      }
+      &-ig:hover {
+        filter: brightness(0) saturate(100%) invert(93%) sepia(35%) saturate(1924%) hue-rotate(157deg) brightness(117%) contrast(108%);
+        cursor: pointer;
+      }
+      &-tw:hover {
+        filter: brightness(0) saturate(100%) invert(93%) sepia(35%) saturate(1924%) hue-rotate(157deg) brightness(117%) contrast(108%);
+        cursor: pointer;
+      }
+    }
+  }
+
+  // FOOTER SUBSCRIBE
+  &__subscribe {
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &-tittle {
+      text-transform: uppercase;
+    }
+    &-paragraph {
+      margin-right: 10rem;
+    }
+    &-inputs {
+      display: flex;
+      gap: 1.5rem;
+      &-text {
+        font-family: $font-body;
+        font-weight: $font-weight-semibold;
+        font-size: 1rem;
+        background-color: $neutral-very-pale-blue;
+        padding: 0.5rem;
+        width: 23rem;
+        height: 2.5rem;
+        margin-top: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        color: $neutral-very-dark-cyan;
+        cursor: pointer;
+      }
+      &-button {
+        font-family: $font-body;
+        font-weight: $font-weight-semibold;
+        font-size: 1rem;
+        background-color: $primary-pink;
+        width: 10rem;
+        height: 2.5rem;
+        margin-top: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        color: $neutral-very-pale-blue;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.header {
+  //border: 2px solid orangered;
+  @include custom-flex;
+  margin: .5rem;
+  &__logo {
+    width: 15%;
+    cursor: pointer;
+  }
+  &__button {
+    border: .01rem solid $primary-light-pink;
+    box-shadow: 0 0 3px $primary-light-pink;
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2.1rem;
+
+    color: $primary-light-pink;
+    background: none;
+    font-weight: $font-weight-regular;
+    text-shadow: 0 0 3px $primary-light-pink;
+  }
+  &__button:hover {
+    cursor: pointer;
+  }
+}
