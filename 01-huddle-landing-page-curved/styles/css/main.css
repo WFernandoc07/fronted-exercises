@@ -16,16 +16,16 @@ html {
   align-items: center;
   margin: 4rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .header {
-    margin: 1rem 1rem;
+    margin: 2.5rem 1.2rem;
   }
 }
 .header__logo {
-  max-width: 30%;
+  max-width: 40%;
   cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .header__logo {
     width: 40%;
   }
@@ -41,10 +41,10 @@ html {
   font-weight: 400;
   text-shadow: 0 0 3px hsl(321, 100%, 78%);
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .header__button {
-    width: 9rem;
-    height: 2.7rem;
+    width: 6rem;
+    height: 2rem;
   }
 }
 .header__button:hover {
@@ -59,9 +59,10 @@ html {
   text-align: center;
   gap: 2rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .hero {
     padding: 2rem;
+    gap: 1.2rem;
   }
 }
 .hero__tittle {
@@ -71,11 +72,11 @@ html {
   color: hsl(192, 100%, 9%);
   text-shadow: 0 0 0.1rem hsl(192, 100%, 9%);
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .hero__tittle {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: hsl(192, 100%, 9%);
     text-shadow: 0 0 0.1rem hsl(192, 100%, 9%);
   }
@@ -87,9 +88,10 @@ html {
   font-weight: 400;
   width: 50%;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .hero__paragraph {
-    width: 100%;
+    width: 95%;
+    font-size: 0.85rem;
   }
 }
 .hero__button {
@@ -106,14 +108,15 @@ html {
   margin-top: 2rem;
   cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .hero__button {
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
     color: hsl(207, 100%, 98%);
     font-weight: 600;
-    width: 20rem;
-    height: 4.5rem;
+    width: 12rem;
+    height: 3.5rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -126,7 +129,7 @@ html {
 .metrics__image {
   max-width: 60%;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .metrics__image {
     max-width: 80%;
   }
@@ -135,7 +138,7 @@ html {
   display: flex;
   width: min(100% - 25rem, 1440px);
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .metrics__items {
     margin: 8rem 0;
     width: 100%;
@@ -176,6 +179,11 @@ html {
   background-repeat: no-repeat;
   height: 12rem;
 }
+@media (max-width: 375px) {
+  .features__grow-bg-t {
+    height: 5rem;
+  }
+}
 .features__grow-bg-b {
   background-image: url(../../../images/bg-section-bottom-desktop-1.svg);
   background-size: cover;
@@ -190,7 +198,7 @@ html {
   align-items: center;
   background-color: hsl(207, 100%, 98%);
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__grow-container {
     max-width: 100%;
     display: flex;
@@ -210,13 +218,17 @@ html {
   gap: 1.5rem;
   margin: 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__grow-text {
     order: 1;
-    max-width: 75%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.83rem;
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
     text-align: center;
   }
 }
@@ -224,10 +236,10 @@ html {
   width: 30%;
   margin: 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__grow-image {
     order: 0;
-    width: 80%;
+    width: 70%;
   }
 }
 .features__conversations {
@@ -239,7 +251,7 @@ html {
   flex-direction: row;
   align-items: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__conversations-container {
     max-width: 100%;
     display: flex;
@@ -259,13 +271,17 @@ html {
   gap: 1.5rem;
   margin: 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__conversations-text {
     order: 1;
-    max-width: 75%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.83rem;
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
     text-align: center;
   }
 }
@@ -273,10 +289,10 @@ html {
   width: 40%;
   margin: 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__conversations-image {
     order: 0;
-    width: 80%;
+    width: 70%;
   }
 }
 .features__users-bg-t {
@@ -305,7 +321,7 @@ html {
   align-items: center;
   background-color: hsl(207, 100%, 98%);
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__users-container {
     max-width: 100%;
     display: flex;
@@ -325,13 +341,17 @@ html {
   gap: 1.5rem;
   margin: 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__users-text {
     order: 1;
-    max-width: 75%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.83rem;
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
     text-align: center;
   }
 }
@@ -339,7 +359,7 @@ html {
   width: 30%;
   margin: 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .features__users-image {
     order: 0;
     width: 80%;
@@ -357,11 +377,11 @@ html {
 }
 .subscribe__text {
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .subscribe__text {
-    max-width: 80%;
+    max-width: 85%;
     text-align: center;
   }
 }
@@ -379,10 +399,11 @@ html {
   box-shadow: 0 0 0.3rem hsl(321, 100%, 78%);
   cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .subscribe__button {
     max-width: 50%;
-    height: 3.5rem;
+    height: 3rem;
+    font-size: 0.83rem;
   }
 }
 
@@ -397,23 +418,23 @@ html {
   background-repeat: no-repeat;
   height: 12rem;
 }
-@media (max-width: 768px) {
-  .footer {
+@media (max-width: 375px) {
+  .footer-bg-t {
     background-image: url(../../../images/bg-footer-top-mobile.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 12.5rem;
+    height: 4rem;
   }
 }
 .footer__container {
   background-color: hsl(192, 100%, 9%);
   display: flex;
   justify-content: space-between;
-  gap: 15rem;
+  gap: 20%;
   padding-bottom: 5rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__container {
     flex-direction: column;
   }
@@ -424,8 +445,9 @@ html {
   gap: 1.5rem;
   margin-left: 5rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__info {
+    margin-top: 8rem;
     margin-left: 2rem;
     margin-right: 4rem;
     order: 1;
@@ -436,18 +458,33 @@ html {
   max-width: 50%;
   height: auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__info-logo {
-    max-width: 60%;
+    max-width: 65%;
+  }
+}
+@media (max-width: 375px) {
+  .footer__info-text {
+    font-size: 0.85rem;
   }
 }
 .footer__info-phone {
   display: flex;
   gap: 1rem;
 }
+@media (max-width: 375px) {
+  .footer__info-phone {
+    font-size: 0.85rem;
+  }
+}
 .footer__info-mail {
   display: flex;
   gap: 1rem;
+}
+@media (max-width: 375px) {
+  .footer__info-mail {
+    font-size: 0.85rem;
+  }
 }
 .footer__info-social-media {
   display: flex;
@@ -473,31 +510,30 @@ html {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin-right: 3rem;
   max-width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__subscribe {
-    max-width: 90%;
-    margin-left: 2rem;
+    max-width: 85%;
+    margin-left: 1.5rem;
     order: 0;
   }
 }
 .footer__subscribe-tittle {
   text-transform: uppercase;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__subscribe-tittle {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .footer__subscribe-paragraph {
   margin-right: 10rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__subscribe-paragraph {
-    font-size: 1.2rem;
-    margin-right: 1rem;
+    font-size: 0.85rem;
+    margin-right: 0rem;
   }
 }
 .footer__subscribe-inputs {
@@ -505,7 +541,7 @@ html {
   gap: 1.5rem;
   max-width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__subscribe-inputs {
     flex-direction: column;
     gap: 0rem;
@@ -517,7 +553,7 @@ html {
   font-size: 1rem;
   background-color: hsl(207, 100%, 98%);
   padding: 0.5rem;
-  max-width: 23rem;
+  max-width: 100%;
   height: 2.5rem;
   margin-top: 2rem;
   border-radius: 0.5rem;
@@ -525,9 +561,8 @@ html {
   color: hsl(192, 100%, 9%);
   cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__subscribe-inputs-text {
-    max-width: 50rem;
     height: 3.5rem;
   }
 }
@@ -544,7 +579,7 @@ html {
   color: hsl(207, 100%, 98%);
   cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .footer__subscribe-inputs-button {
     font-size: 1.2rem;
     align-self: flex-end;

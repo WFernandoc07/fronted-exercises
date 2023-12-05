@@ -7,18 +7,20 @@
   gap: 2rem;
   @media (max-width: $xsm){
     padding: 2rem;
+    gap: 1.2rem;
   }
   &__tittle {
     @include custom-headings(3.5rem);
     @media (max-width: $xsm){
-      @include custom-headings(2.5rem);
+      @include custom-headings(1.5rem);
     }
   }
   &__paragraph {
     @include custom-texts($font-body, 1.5rem, $neutral-very-dark-cyan, $font-weight-regular);
     width: 50%;
     @media (max-width: $xsm){
-      width: 100%;
+      width: 95%;
+      font-size: 0.85rem;
     }
   }
   &__button {
@@ -33,8 +35,9 @@
     cursor: pointer;
     @media (max-width: $xsm){
       @include custom-texts($font-body, 1.2rem, $neutral-very-pale-blue, $font-weight-semibold);
-      width: 20rem;
-      height: 4.5rem;
+      width: 12rem;
+      height: 3.5rem;
+      font-size: .85rem;
     }
   }
 }

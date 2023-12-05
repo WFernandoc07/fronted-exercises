@@ -24,7 +24,7 @@ El proyecto **Huddle Landing Page** es una solución de el [desafío de la pági
 
 ## Requerimientos
 
-- [x] Los usuarios deberán poder ver el diseño óptimo para el sitio según el tamaño de sus pantalla (desktop: 1440px y mobile: 768px).
+- [x] Los usuarios deberán poder ver el diseño óptimo para el sitio según el tamaño de sus pantalla (desktop: 1440px y mobile: 375px).
 - [x] Ver los estados de desplazamiento para todos los elementos interactivos.
 - [x] La landing page debe estar desplegado en Vercel
 - [x] Se utilizará un repositorio de GitHub
@@ -66,7 +66,6 @@ sass styles/sass/main.scss styles/css/main.css --watch
 ```
 
 ## Construido con
-
 - HTML
 - CSS
 - SASS
@@ -145,14 +144,14 @@ Se inician por estructurar la información y las características más important
 
 ### Tamaño de pantallas
 
-- 375px -> Pantallas xsm: (celulares)
+- **375px -> Pantallas xsm: (celulares)**
 - 576px -> pantallas sm (celulares)
-- **768px -> pantallas md (tablets y ceulares)**
+- 768px -> pantallas md (tablets y ceulares)
 - 992px -> pantallas ld (Desktop)
 - 1200px -> pantallas xl (Desktops, TVs)
 - **1440px -> Pantallas xxl (Desktop, TVs)**
 
-### Mixin e iclude
+### Mixin e include
 
 Un mixin es una función que puede o no incluir parámetros, que nos permiten reutilizar código, a través del include.
 
@@ -217,9 +216,9 @@ Para mejorar el proyecto, se podrían realizar las siguientes mejoras:
 * Añadir pruebas unitarias para garantizar el correcto funcionamiento del proyecto.
 
 ## Recomendaciones
-El proyecto Huddle Landing Page es una buena solución para aprender a crear páginas de inicio responsivas utilizando HTML y CSS. El proyecto sigue las mejores prácticas y utiliza las tecnologías y metodologías recomendadas.
+El proyecto Huddle Landing Page es una buena solución para aprender a crear páginas de inicio responsivas utilizando HTML y SCSS. El proyecto sigue las mejores prácticas y utiliza las tecnologías y metodologías recomendadas.
 
 ## Hecho por
 
 - LinkedIn - [William Castrejón](https://www.linkedin.com/in/wfernandoc07/)
-- GitHub - [WFernandocO7]()
+- GitHub - [WFernandocO7](https://github.com/WFernandoc07)

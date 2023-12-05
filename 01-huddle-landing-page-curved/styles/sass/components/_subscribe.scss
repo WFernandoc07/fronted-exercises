@@ -9,9 +9,9 @@
   
   &__text {
     font-family: $font-heading;
-    font-size: 2rem;
+    font-size: 1.5rem;
     @media (max-width: $xsm){
-      max-width: 80%;
+      max-width: 85%;
       text-align: center;
     }
   }
@@ -31,7 +31,8 @@
     cursor: pointer;
     @media (max-width: $xsm){
       max-width: 50%;
-      height: 3.5rem;
+      height: 3rem;
+      font-size: 0.83rem;
     }
   }
 }

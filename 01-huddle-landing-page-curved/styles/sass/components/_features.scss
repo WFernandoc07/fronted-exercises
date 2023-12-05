@@ -7,6 +7,9 @@
       background-position: center center;
       background-repeat: no-repeat;
       height:12rem;
+      @media (max-width: $xsm){
+        height: 5rem;
+      }
     }
     &-bg-b {
       background-image: url(../../../images/bg-section-bottom-desktop-1.svg);
@@ -30,7 +33,8 @@
 
       @media (max-width: $xsm){
         order: 1;
-        @include custon-text-features(75%);
+        @include custon-text-features(80%);
+        @include custom-texts($font-body, .83rem, $neutral-very-dark-cyan, $font-weight-regular);
         text-align: center;
       }
     }
@@ -39,7 +43,7 @@
       margin:  0 auto;
       @media (max-width: $xsm){
         order: 0;
-        width: 80%;
+        width: 70%;
       }
     }
   }
@@ -61,7 +65,8 @@
 
     @media (max-width: $xsm){
       order: 1;
-      @include custon-text-features(75%);
+      @include custon-text-features(80%);
+      @include custom-texts($font-body, .83rem, $neutral-very-dark-cyan, $font-weight-regular);
       text-align: center;
     }
    }
@@ -70,7 +75,7 @@
       margin: 0 auto;
       @media (max-width: $xsm){
         order: 0;
-        width: 80%;
+        width: 70%;
       }
     }
   }
@@ -107,7 +112,8 @@
     margin: 0 auto;
     @media (max-width: $xsm){
       order: 1;
-      @include custon-text-features(75%);
+      @include custon-text-features(80%);
+      @include custom-texts($font-body, .83rem, $neutral-very-dark-cyan, $font-weight-regular);
       text-align: center;
     }
    }
