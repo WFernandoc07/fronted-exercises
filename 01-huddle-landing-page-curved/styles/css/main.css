@@ -169,9 +169,6 @@ html {
   opacity: 70%;
 }
 
-.features__grow {
-  margin-top: 10rem;
-}
 .features__grow-bg-t {
   background-image: url(../../../images/bg-section-top-desktop-1.svg);
   background-size: cover;
@@ -531,7 +528,6 @@ html {
 }
 @media (max-width: 768px) {
   .footer__subscribe-inputs-text {
-    border: 2px solid red;
     max-width: 50rem;
     height: 3.5rem;
   }

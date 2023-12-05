@@ -129,7 +129,6 @@
         color: $neutral-very-dark-cyan;
         cursor: pointer;
         @media (max-width: $xsm){
-          border: 2px solid red;
           max-width: 50rem;
           height: 3.5rem;
         }
