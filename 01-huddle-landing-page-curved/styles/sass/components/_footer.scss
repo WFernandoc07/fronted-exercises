@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 12.5rem;
+    height: 12rem;
   }
   
   @media (max-width: $xsm){
@@ -107,6 +107,7 @@
       }
     }
     &-inputs {
+      border: 2px solid orangered;
       display: flex;
       gap: 1.5rem;
       max-width: 100%;
@@ -120,7 +121,7 @@
         font-size: 1rem;
         background-color: $neutral-very-pale-blue;
         padding: 0.5rem;
-        width: 23rem;
+        max-width: 23rem;
         height: 2.5rem;
         margin-top: 2rem;
         border-radius: 0.5rem;
@@ -128,8 +129,9 @@
         color: $neutral-very-dark-cyan;
         cursor: pointer;
         @media (max-width: $xsm){
-          width: 31rem;
-          height: 4rem;
+          border: 2px solid red;
+          max-width: 50rem;
+          height: 3.5rem;
         }
       }
       &-button {
@@ -148,9 +150,8 @@
           font-size: 1.2rem;
           align-self: flex-end;
           margin-top: 1rem;
-          margin-right: 1.7rem;
           width: 12rem;
-          height: 4rem;
+          height: 3.5rem;
         }
       }
     }

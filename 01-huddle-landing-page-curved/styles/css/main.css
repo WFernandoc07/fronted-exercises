@@ -398,7 +398,7 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 12.5rem;
+  height: 12rem;
 }
 @media (max-width: 768px) {
   .footer {
@@ -504,6 +504,7 @@ html {
   }
 }
 .footer__subscribe-inputs {
+  border: 2px solid orangered;
   display: flex;
   gap: 1.5rem;
   max-width: 100%;
@@ -520,7 +521,7 @@ html {
   font-size: 1rem;
   background-color: hsl(207, 100%, 98%);
   padding: 0.5rem;
-  width: 23rem;
+  max-width: 23rem;
   height: 2.5rem;
   margin-top: 2rem;
   border-radius: 0.5rem;
@@ -530,8 +531,9 @@ html {
 }
 @media (max-width: 768px) {
   .footer__subscribe-inputs-text {
-    width: 31rem;
-    height: 4rem;
+    border: 2px solid red;
+    max-width: 50rem;
+    height: 3.5rem;
   }
 }
 .footer__subscribe-inputs-button {
@@ -552,9 +554,8 @@ html {
     font-size: 1.2rem;
     align-self: flex-end;
     margin-top: 1rem;
-    margin-right: 1.7rem;
     width: 12rem;
-    height: 4rem;
+    height: 3.5rem;
   }
 }
 
