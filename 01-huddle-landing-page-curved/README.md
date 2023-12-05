@@ -29,7 +29,7 @@ sass styles/sass/main.scss styles/css/main.css --watch
 * Desktop-first workflow
 
 ## Lecciones aprendidas
-### Enfoques en el diseño y desarrollo de sitios web
+### Enfoques en el diseño y desarrollo de sitios web (workflow)
 #### Mobile First
 Se inician por estructurar la información y las caraterísticas más importantes para dispositivos móviles, luego estas se irán adaptando para pantallas más grandes.
 #### Desktop First
@@ -76,8 +76,8 @@ Se inician por estructurar la información y las características más important
 
 ### Tamaño de pantallas
 * 375px -> Pantallas xsm: (celulares)
-* **576px -> pantallas sm (celulares)**
-* 768px -> pantallas md (tablets y ceulares)
+* 576px -> pantallas sm (celulares)
+* **768px -> pantallas md (tablets y ceulares)**
 * 992px -> pantallas ld (Desktop)
 * 1200px -> pantallas xl (Desktops, TVs)
 * **1440px -> Pantallas xxl (Desktop, TVs)**
@@ -86,6 +86,7 @@ Se inician por estructurar la información y las características más important
 * [Metodología BEM](https://getbem.com/)
 * [css-color-filter-generator](https://angel-rs.github.io/css-color-filter-generator/)
 * [colorhunt.co](https://colorhunt.co/)
-
+* [SASS Sonahang Rai Blog, Responsive web Design with SASS](https://www.sonahangrai.com/tutorials/responsive-web-design-with-sass/)
 
 ## Autor
+William Castrejón

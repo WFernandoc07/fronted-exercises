@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 4rem;
   &__image {
     max-width: 60%;
     @media (max-width: $xsm){
@@ -32,7 +33,7 @@
       @include custom-headings(4rem);  
     }
     &-paragraph {
-      @include custom-texts($font-body, 1rem, $neutral-very-dark-cyan);
+      @include custom-texts($font-body, 1.2rem, $neutral-very-dark-cyan);
       opacity: 70%;
     }
   }

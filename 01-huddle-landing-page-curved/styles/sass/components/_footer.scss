@@ -1,28 +1,32 @@
 .footer {
-  border: 2px solid white;
-  background-image: url(../../../images/bg-footer-top-desktop.svg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  font-family: $font-body;
   color: $neutral-very-pale-blue;
+  font-family: $font-body;
+
+  &-bg-t {
+    background-image: url(../../../images/bg-footer-top-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12.5rem;
+  }
+  
   @media (max-width: $xsm){
     background-image: url(../../../images/bg-footer-top-mobile.svg);
-    background-size: 100%;
-    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12.5rem;
   }
 
   // FOOTER CONTAINER
   &__container {
-    margin-top: 9rem;
     background-color: $neutral-very-dark-cyan;
     display: flex;
     justify-content: space-between;
     gap: 15rem;
     padding-bottom: 5rem;
     @media (max-width: $xsm){
-      border: 2px solid orangered;
       flex-direction: column;
-      margin-top: 4rem;
     }
   }
 
@@ -33,9 +37,9 @@
     gap: 1.5rem;
     margin-left: 5rem;
     @media (max-width: $xsm){
-      border: 2px solid orangered;
       margin-left: 2rem;
       margin-right: 4rem;
+      order: 1;
     }
 
     &-logo {
@@ -85,15 +89,21 @@
     margin-right: 3rem;
     max-width: 100%;
     @media (max-width: $xsm){
+      max-width: 90%;
       margin-left: 2rem;
+      order: 0;
     }
     &-tittle {
       text-transform: uppercase;
+      @media (max-width: $xsm){
+        font-size: 2rem;
+      }
     }
     &-paragraph {
       margin-right: 10rem;
       @media (max-width: $xsm){
-        margin-right: 2rem;
+        font-size: 1.2rem;
+        margin-right: 1rem;
       }
     }
     &-inputs {
@@ -117,6 +127,10 @@
         border: none;
         color: $neutral-very-dark-cyan;
         cursor: pointer;
+        @media (max-width: $xsm){
+          width: 31rem;
+          height: 4rem;
+        }
       }
       &-button {
         font-family: $font-body;
@@ -131,10 +145,12 @@
         color: $neutral-very-pale-blue;
         cursor: pointer;
         @media (max-width: $xsm){
+          font-size: 1.2rem;
           align-self: flex-end;
           margin-top: 1rem;
           margin-right: 1.7rem;
-          height: 3rem;
+          width: 12rem;
+          height: 4rem;
         }
       }
     }
