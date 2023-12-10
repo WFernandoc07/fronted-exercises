@@ -8,14 +8,14 @@
 </head>
 <body>
   <header class="header wrapper">
-    <img src="./images/logo.svg" alt="logo" class="header__logo">
-    
+    <img class="header__logo" src="./images/logo.svg" alt="logo">
     <nav class="header__navbar">
-      <div class="header__navbar-menu">
-        <img class="header__navbar-menu-open" src="./images/icon-menu.svg" alt="">
-        <img class="header__navbar-menu-close" src="./images/icon-close-menu.svg" alt="">
+      <div class="header__navbar-menu" id="navbar-menu">
+        <img class="header__navbar-menu-open" id="menu_open" src="./images/icon-menu.svg" alt="">
+        <!-- <a href="javascript:void(0);">&#9776;</a> -->
+        <img class="header__navbar-menu-close" id="menu_close" src="./images/icon-close-menu.svg" alt="">
       </div>
-      <ul class="header__navbar-items">
+      <ul class="header__navbar-items" id="navbarItems">
         <li class="header__navbar-items-features">Features<img src="./images/icon-arrow-down.svg" alt=""><img src="./images/icon-arrow-up.svg" alt="">
           <ul>
             <li><img src="./images/icon-todo.svg" alt="">Todo List</li>
@@ -42,7 +42,7 @@
   </header>
   <main>
     <section class="hero wrapper">
-      <img src="./images/image-hero-desktop.png" alt="hero_image">
+      <!-- <img src="./images/image-hero-desktop.png" alt="hero_image"> -->
       <div class="hero__container">
         <h1 class="hero__title">Make remote work</h1>
         <p class="hero__paragraph">
@@ -61,5 +61,10 @@
       <img  class="clients__image" src="./images/client-maker.svg" alt="client-databiz">
     </section>
   </main>
+
+
+
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
