@@ -8,41 +8,44 @@
 </head>
 <body>
   <header class="header wrapper">
-    <img class="header__logo" src="./images/logo.svg" alt="logo">
-    <nav class="header__navbar">
-      <div class="header__navbar-menu" id="navbar-menu">
-        <img class="header__navbar-menu-open" id="menu_open" src="./images/icon-menu.svg" alt="">
-        <!-- <a href="javascript:void(0);">&#9776;</a> -->
-        <img class="header__navbar-menu-close" id="menu_close" src="./images/icon-close-menu.svg" alt="">
-      </div>
-      <ul class="header__navbar-items" id="navbarItems">
-        <li class="header__navbar-items-features">Features<img src="./images/icon-arrow-down.svg" alt=""><img src="./images/icon-arrow-up.svg" alt="">
-          <ul>
-            <li><img src="./images/icon-todo.svg" alt="">Todo List</li>
-            <li><img src="./images/icon-calendar.svg" alt="">Calendar</li>
-            <li><img src="./images/icon-reminders.svg" alt="">Reminders</li>
-            <li><img src="./images/icon-planning.svg" alt="">Planning</li>
+    <img class="logo" src="./images/logo.svg" alt="logo">
+    <img id="menu_open" class="header__menu header__menu--open" src="./images/icon-menu.svg" alt="">
+    <nav id="navbar" class="navbar--close">
+      <img id="menu_close" class="header__menu header__menu--close" src="./images/icon-close-menu.svg" alt="">
+      <ul id="navbarItems" class="navbar__list">
+        <li>Features
+          <img id="features_down" class="navbar__list--down" src="./images/icon-arrow-down.svg" alt="">
+          <img id="features_up" class="navbar__list--up"  src="./images/icon-arrow-up.svg" alt="">
+          <ul id="features_dropdown" class="navbar__list-dropdown">
+            <li><img src="./images/icon-todo.svg" class="navbar__list-dropdown--mr" alt="">Todo List</li>
+            <li><img src="./images/icon-calendar.svg" class="navbar__list-dropdown--mr" alt="">Calendar</li>
+            <li><img src="./images/icon-reminders.svg" class="navbar__list-dropdown--mr" alt="">Reminders</li>
+            <li><img src="./images/icon-planning.svg" class="navbar__list-dropdown--mr" alt="">Planning</li>
           </ul>
         </li>
-        <li class="header__navbar-items-company">Company<img src="./images/icon-arrow-down.svg" alt=""><img src="./images/icon-arrow-up.svg" alt="">
-          <ul>
+        <li>
+          Company
+          <img id="company_down" class="navbar__list--down" src="./images/icon-arrow-down.svg" alt="">
+          <img id="company_up" class="navbar__list--up" src="./images/icon-arrow-up.svg" alt="">
+          <ul id="company_dropdown" class="navbar__list-dropdown">
             <li>History</li>
             <li>Our Team</li>
             <li>Blog</li>
           </ul>
         </li>
-        <li class="header__navbar-items-career">Careers</li>
+        <li>Careers</li>
         <li>About</li>
       </ul>
-      <ul class="header__navbar-auth">
-        <li>Login</li>
-        <li><button>Register</button></li>
+      <ul class="navbar__auth">
+        <li class="navbar__auth-login">Login</li>
+        <li class="navbar__auth-register">Register</li>
       </ul>
     </nav>
   </header>
   <main>
     <section class="hero wrapper">
-      <!-- <img src="./images/image-hero-desktop.png" alt="hero_image"> -->
+      <img class="hero__image" src="./images/image-hero-mobile.png" alt="">
+      <img class="hero__image-desktop" src="./images/image-hero-desktop.png" alt="hero_image">
       <div class="hero__container">
         <h1 class="hero__title">Make remote work</h1>
         <p class="hero__paragraph">

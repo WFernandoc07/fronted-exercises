@@ -1,0 +1,37 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  &__image{
+    max-width: 100%;
+    &-desktop {
+      display: none;      
+    }
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    color: $neutral-almost-black;
+  }
+  &__title {
+    font-size: 2rem;
+  }
+  &__paragraph {
+    font-size: .9rem;
+    padding: 0 1rem 0 1rem;
+    line-height: 2;
+  }
+  &__button {
+    background-color: $neutral-almost-black;
+    color: $neutral-almost-withe;
+    font-size: 1rem;
+    font-weight: $font-weight-bold;
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+  }
+}

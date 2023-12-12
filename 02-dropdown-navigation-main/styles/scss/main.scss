@@ -1,52 +1,9 @@
-@import './components/vairables';
+@import './components/variables';
 @import './components/base';
+@import './components/mixins';
+@import './components/header';
+@import './components/hero';
+@import './components/clients';
 
 
-.header {
-  border: 2px solid orangered;
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem;
 
-  &__logo {
-    border: 2px solid blue;
-    width: 25%;
-    height: 25%;
-  }
-  &__navbar {
-    &-menu {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      &-open {
-        &-hide {
-          display: none;
-        }
-      }
-      &-close {
-        display: none;
-
-        &-show {
-          display: flex;
-        }
-      }
-    }
-
-    &-items {
-      background-color: aquamarine;
-      display: none;
-      &-show {
-        display: flex;
-      }
-    }
-
-    &-auth {
-      background-color: gray;
-      display: none;
-    }
-  }
-}
-
-main {
-  background-color: greenyellow;
-}
