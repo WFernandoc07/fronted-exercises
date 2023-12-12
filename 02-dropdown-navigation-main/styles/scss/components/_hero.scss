@@ -23,6 +23,7 @@
     font-size: .9rem;
     padding: 0 1rem 0 1rem;
     line-height: 2;
+    color: $neutral-medium-gray;
   }
   &__button {
     background-color: $neutral-almost-black;
@@ -33,5 +34,6 @@
     height: 3rem;
     border: none;
     border-radius: 1rem;
+    box-shadow: 0 0 .5rem $neutral-medium-gray;
   }
 }
