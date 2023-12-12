@@ -2,7 +2,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  //align-items: center;
+  align-items: center;
   padding: 1rem;
   background-color: $neutral-almost-withe;
   // header__menu
@@ -10,7 +10,9 @@
     display: block;
     border: 0;
     cursor: pointer;
-    align-self: flex-end;
+    &--close {
+      align-self: flex-end;
+    }
   }
 }
 

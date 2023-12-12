@@ -14,6 +14,7 @@ html {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   background-color: hsl(0, 0%, 98%);
 }
@@ -21,6 +22,8 @@ html {
   display: block;
   border: 0;
   cursor: pointer;
+}
+.header__menu--close {
   align-self: flex-end;
 }
 
@@ -141,7 +144,6 @@ html {
 }
 
 .clients {
-  border: 2px solid orangered;
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
