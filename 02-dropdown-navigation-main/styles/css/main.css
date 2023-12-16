@@ -222,6 +222,8 @@ html {
 .hero__container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 3rem;
   color: hsl(0, 0%, 8%);
 }
 @media (min-width: 1200px) {
@@ -233,7 +235,7 @@ html {
   }
 }
 .hero__title {
-  font-size: 2rem;
+  font-size: 3.3rem;
 }
 @media (min-width: 1200px) {
   .hero__title {
@@ -243,9 +245,10 @@ html {
   }
 }
 .hero__paragraph {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   padding: 0 1rem 0 1rem;
   line-height: 2;
+  text-align: center;
   color: hsl(0, 0%, 41%);
 }
 @media (min-width: 1200px) {
@@ -254,6 +257,7 @@ html {
     width: 80%;
     padding: 0;
     line-height: 1.5;
+    text-align: start;
   }
 }
 .hero__button {

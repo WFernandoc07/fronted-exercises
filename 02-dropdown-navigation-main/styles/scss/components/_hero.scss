@@ -28,6 +28,8 @@
   &__container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 3rem;
     color: $neutral-almost-black;
     @media (min-width: $xl) {
       order: 1;
@@ -37,7 +39,7 @@
     }
   }
   &__title {
-    font-size: 2rem;
+    font-size: 3.3rem;
     @media (min-width: $xl) {
       font-size: 6.8vw;
       margin: 0;
@@ -45,15 +47,17 @@
     }
   }
   &__paragraph {
-    font-size: .9rem;
+    font-size: 1.5rem;
     padding: 0 1rem 0 1rem;
     line-height: 2;
+    text-align: center;
     color: $neutral-medium-gray;
     @media (min-width: $xl) {
       font-size: 1.2rem;
       width: 80%;
       padding: 0;
       line-height: 1.5;
+      text-align: start;
     }
   }
   &__button {
