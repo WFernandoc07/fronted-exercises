@@ -5,11 +5,18 @@
   align-items: center;
   padding: 1rem;
   background-color: $neutral-almost-withe;
+  @media (min-width: $xl) {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
   // header__menu
   &__menu {
     display: block;
     border: 0;
     cursor: pointer;
+    @media (min-width: $xl) {
+      display: none;
+    }
     &--close {
       align-self: flex-end;
     }
@@ -18,37 +25,58 @@
 
 // logo
 .logo {
-  max-width: 5rem;
+  width: 5rem;
+  @media (min-width: $xl) {
+    width: 7rem;
+  }
 }
 
 // navbar
 .navbar--close{
   display: none;
+  @media (min-width: $xl) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+  }
 }
 //navbar-open
 .navbar{
   display: flex;
   flex-direction: column;
-  align-items: start;
   gap: 3rem;
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  width: 60vw;
+  height: 100vmax;
+  flex-grow: 1;
   padding: 1.2rem;
   background-color: $neutral-almost-withe;
   box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-  width: 60%;
+  
   &__list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 100%;
+
+    @media (min-width: $xl) {
+      flex-direction: row;
+      gap: 1rem;
+      width: 50%;
+    } 
     &--down {
       display: inline;
       margin-left: 1rem;
       width: 15px;
+      @media (min-width: $xl) {
+        margin: 0;
+      }   
       &-expanded {
         display: none;
       }
@@ -59,8 +87,12 @@
         display: inline;
         margin-left: 1rem;
         width: 15px;
+        @media (min-width: $xl) {
+          margin: 0;
+        }  
       }
     }
+
     &-dropdown {
       display: none;
       &--expanded {
@@ -69,6 +101,16 @@
         flex-direction: column;
         padding: 1rem 0 0 1.5rem;
         gap: 1rem;
+        @media (min-width: $xl) {
+          position: absolute;
+          gap: 1.2rem;
+          max-width: 14vw;
+          margin-top: 1rem;
+          padding: 1rem;
+          background-color: $neutral-almost-withe;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 15px;
+        }
       }
       &--mr {
         margin-right: 1rem;
@@ -84,6 +126,20 @@
     align-items: center;
     gap: 1.5rem;
     font-size: 1rem;
+    margin-bottom: 5rem;
+    
+    @media (min-width: $xl) {
+      width: 10rem;
+      flex-direction: row;
+      margin: 0;
+    }
+
+    &-login {
+      @media (min-width: $xl) {
+        cursor: pointer;
+      }
+    }
+    
     &-register {
       display: flex;
       align-items: center;
@@ -92,6 +148,17 @@
       border: 2px solid $neutral-almost-black;
       height: 2.5rem;
       border-radius: 15px;
+
+      @media (min-width: $xl) {
+        cursor: pointer;
+      }
     }
+  }
+}
+
+.navbar__list li {
+  @media (min-width: $xl) {
+    width: 7.5rem;
+    cursor: pointer;
   }
 }

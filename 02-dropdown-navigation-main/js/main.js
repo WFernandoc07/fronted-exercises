@@ -36,6 +36,10 @@ featuresDown.addEventListener("click", () => {
   featuresDown.classList.add("navbar__list--down-expanded")
   featuresUp.classList.add("navbar__list--up-expanded")
   featuresDropdown.classList.add("navbar__list-dropdown--expanded")
+
+  companyDown.classList.remove("navbar__list--down-expanded")
+  companyUp.classList.remove("navbar__list--up-expanded")
+  companyDropdown.classList.remove("navbar__list-dropdown--expanded")
 })
 
 featuresUp.addEventListener("click", () => {
@@ -49,6 +53,10 @@ companyDown.addEventListener("click", () => {
   companyUp.classList.add("navbar__list--up-expanded")
   companyDown.classList.add("navbar__list--down-expanded")
   companyDropdown.classList.add("navbar__list-dropdown--expanded")
+
+  featuresDown.classList.remove("navbar__list--down-expanded")
+  featuresUp.classList.remove("navbar__list--up-expanded")
+  featuresDropdown.classList.remove("navbar__list-dropdown--expanded")
 })
 
 companyUp.addEventListener("click", () => {
