@@ -2,7 +2,7 @@
 
 ## Descripción
 
-El proyecto Section with Dropdown Navigation es una solución de el desafío de [Intro section With Dropdown Navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5) en Frontend Mentor. El objetivo es crear una un página web responsiva con menús desplegables que cumpla con los requisitos del desafío de Frontend Mentor. Para ello, el proyecto utilizará las tecnologías de HTML, SASS y Javascript, siguiendo la metodología BEM para el nombramiento de clases y el flujo de trabajo "desktop first".
+El proyecto Section with Dropdown Navigation es una solución de el desafío de [Intro section With Dropdown Navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5) en Frontend Mentor. El objetivo es crear una un página web responsiva con menús desplegables que cumpla con los requisitos del desafío de Frontend Mentor. Para ello, el proyecto utilizará las tecnologías de HTML, SASS y Javascript, siguiendo la metodología BEM para el nombramiento de clases y el flujo de trabajo "mobile first".
 
 ## Índice
 
